@@ -1,0 +1,168 @@
+/* Put your CSS here */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url("../image/background.jpg");
+	width:100%;
+	height:100%;
+
+}
+
+a,  a:focus {
+	color: #555;
+	text-decoration: none;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+a:hover{
+	color: #000;
+	text-decoration: none;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+h1, h2 {
+	margin-top: 10px;
+	font-size: 38px;
+	font-weight: 100;
+	color: #555;
+	line-height: 50px;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: 400;
+	color: #555;
+	line-height: 30px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #555;
+	line-height: 30px;
+}
+
+img { max-width: 100%; }
+
+
+.ember-application {
+	margin: 20px;
+}
+
+.form-box {
+	padding-top: 20px;
+}
+
+.form-control{
+	height:40px;
+}
+.form-control-edit{
+    display:inline-block;
+        width:49%;
+}
+.form-top {
+	overflow: hidden;
+	padding: 20px 25px 10px 25px;
+	background: rgba(0, 0, 0, 0.1);
+	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+	
+}
+.form-top-left{
+	float: left;
+	display: inline-block;
+
+}
+.form-top-right{
+	float: right;
+	display: inline-block;
+	text-align: right;
+	margin-right: 3%;
+}
+
+.form-bottom {
+	padding: 5px 25px 30px 25px;
+	background: rgba(0, 0, 0, 0.1);
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	text-align: left;
+}
+
+.form-bottom form textarea {
+	height: 100px;
+}
+
+.form-bottom form .input-error {
+	border-color: #19b9e7;
+}
+
+.form-group{
+	width:95%;
+	margin:10px auto;
+}
+
+.detail{
+	width: 36%;
+	display: inline-block;
+	text-align: left;
+	margin-left:1%;
+
+}
+.detail-right{
+	width: 62%;
+	display: inline-block;
+	text-align: right;
+	word-break: break-word;
+
+}
+
+.register-btn, .add-btn{
+	line-height: 30px;
+	font-size: 20px;
+	background-color: #70D78C;
+	width: 100%;
+}
+.btn:hover{
+	background-color:rgba(0, 0, 0, 0.6); 
+	color:white;
+	transition: background-color .3s;
+
+}
+.save-btn, .delete-btn, .edit-btn, .back-btn{
+	line-height: 30px;
+	font-size: 20px;
+	background-color: #70D78C;
+	width: 49%;
+	margin-left: 1px;
+}
+
+.add-btn{
+	color:#000;
+}
+
+.copyright{
+	  bottom: 20px;
+  position: absolute;
+  color: white;
+  right: 5%;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.error-field{
+border: 2px solid red;
+}
+
+.text-first-name, .text-last-name, .text-phone-number,.valid-phone-number, .text-address, .text-email, .valid-email, .text-password, .text-re-password, .match-password{
+	display:none;
+	color:red;
+}
+
+.edit-field{
+    display:inline-block;
+    width:50%;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
